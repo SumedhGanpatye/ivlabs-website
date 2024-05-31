@@ -236,7 +236,7 @@ h6 {
 }
 
 .navbar a:hover,
-.navbar .active,
+/* .navbar .active, */
 .navbar .active:focus,
 .navbar li:hover>a {
   background: #3996b8;
@@ -740,9 +740,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: #3996b8 fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 50px 0;
 }
 
 .cta h3 {
@@ -771,6 +771,26 @@ section {
 
 .cta .cta-btn:hover {
   background: #3996b8;
+  border: 2px solid #3996b8;
+}
+
+.ctasbtn .cta-s-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px;
+  transition: 0.5s;
+  margin-top: 2px;
+  border: 2px solid #3996b8;
+  color: #3996b8;
+}
+
+.ctasbtn .cta-s-btn:hover {
+  background: #3996b8;
+  color: #fff;
   border: 2px solid #3996b8;
 }
 
